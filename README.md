@@ -82,6 +82,7 @@ $GOPATH/
                             flash.html
                             footer.html
                             header.html
+                        init.go         # revel auto-generated init file
                     conf/
                         app.conf        # revel main configuration file
                         routes          # app routes definition
