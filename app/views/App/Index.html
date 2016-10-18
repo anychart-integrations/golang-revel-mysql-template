@@ -1,0 +1,32 @@
+{{set . "title" "Anychart Golang template"}}
+{{append . "moreStyles" "css/style.css"}}
+{{template "header.html" .}}
+
+<header class="jumbotron" style="background-color:#A9F16C">
+  <div class="container">
+    <div class="row">
+      <h1>{{.label}}</h1>
+      <p></p>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="span6">
+      {{template "flash.html" .}}
+    </div>
+    <div id="container"></div>
+  </div>
+</div>
+
+<script>
+  anychart.onDocumentReady(function() {
+    var chart = anychart.pie(JSON.parse({{raw .chartData}}));
+    chart.title("{{.chartTitle}}");
+    chart.container("container");
+    chart.draw();
+  });
+</script>
+
+{{template "footer.html" .}}
