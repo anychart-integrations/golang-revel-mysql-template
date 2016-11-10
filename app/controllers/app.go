@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"github.com/ilevd/golang-revel-mysql-template/app/models"
+	"github.com/anychart-integrations/golang-revel-mysql-template/app/models"
 	"github.com/revel/revel"
 	"fmt"
 	"encoding/json"
