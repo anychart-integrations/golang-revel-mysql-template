@@ -19,24 +19,24 @@ mysql  Ver 14.14 Distrib 5.5.52, for debian-linux-gnu (x86_64) using readline 6.
 
 To start this example run commands listed below.
 
-Navigate to your Go working folder:
+Install Revel:
 ```
-cd $GOPATH/src/github.com/{user}
+$ go get github.com/revel/cmd/revel
 ```
 
 Clone the repository from github.com:
 ```
-$ git clone git@github.com:anychart-integrations/golang-revel-mysql-template.git
+$ go get github.com/anychart-integrations/golang-revel-mysql-template
 ```
 
 Navigate to the repository folder:
 ```
-$ cd golang-revel-mysql-template
+$ cd $GOPATH/src/github.com/anychart-integrations/golang-revel-mysql-template
 ```
 
-Install Revel:
+Get dependencies:
 ```
-$ go get github.com/revel/cmd/revel
+$ go get ./...
 ```
 
 Set up MySQL database, use -u -p flags to provide username and password:
@@ -46,7 +46,7 @@ $  mysql < database_backup.sql
 
 Run example:
 ```
-$ revel run github.com/{user}/golang-revel-mysql-template
+$ revel run github.com/anychart-integrations/golang-revel-mysql-template
 ```
 
 Open browser at http://localhost:9000/
@@ -116,5 +116,3 @@ Database - [MySQL](https://www.mysql.com/)<br />
 
 ## License
 [© AnyChart.com - JavaScript charts](http://www.anychart.com). Released under the [Apache 2.0 License](https://github.com/anychart-integrations/golang-revel-mysql-template/blob/master/LICENSE).
-
-
