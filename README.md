@@ -1,4 +1,4 @@
-[<img src="https://cdn.anychart.com/images/logo-transparent-segoe.png?2" width="234px" alt="AnyChart - Robust JavaScript/HTML5 Chart library for any project">](https://anychart.com)
+[<img src="https://cdn.anychart.com/images/logo-transparent-segoe.png?2" width="234px" alt="AnyChart - Robust JavaScript/HTML5 Chart library for any project">](https://www.anychart.com)
 # Go basic template
 
 This example shows how to use Anychart library with the Go programming language, Revel web framework and MySQL database.
@@ -111,7 +111,7 @@ Database - [MySQL](https://www.mysql.com/)<br />
 * [Documentation](https://docs.anychart.com)
 * [JavaScript API Reference](https://api.anychart.com)
 * [Code Playground](https://playground.anychart.com)
-* [Technical Support](https://anychart.com/support)
+* [Technical Support](https://www.anychart.com/support)
 
 ## License
 AnyChart Go/Revel/MySql integration sample includes two parts:
