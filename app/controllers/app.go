@@ -28,7 +28,7 @@ func (c App) Index() revel.Result {
 
 	// pass data into template
 	label := "Anychart Golang Revel template"
-	c.RenderArgs["chartData"] = string(b)
-	c.RenderArgs["chartTitle"] = "Top 5 fruits"
+	c.ViewArgs["chartData"] = string(b)
+	c.ViewArgs["chartTitle"] = "Top 5 fruits"
 	return c.Render(label)
 }
